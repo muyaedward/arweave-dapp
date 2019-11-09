@@ -4,7 +4,7 @@ Decentralized Academic Publishing Portal built with vuejs, tailwindcss, and Arwe
 
 ### Permaweb link
 
-[https://cqypxhmfgpqh.arweave.net/bd2CFrZ9eYTiiAYWCVlUTcqOhdqli4WRxhJGSzWkgUs/index.html](https://cqypxhmfgpqh.arweave.net/bd2CFrZ9eYTiiAYWCVlUTcqOhdqli4WRxhJGSzWkgUs/index.html)
+[https://g7ecexici3ys.arweave.net/0xpkCxFm_0cnHKIgWG1u3dE98SMdjhMYA5hBwfzytMc/index.html](https://g7ecexici3ys.arweave.net/0xpkCxFm_0cnHKIgWG1u3dE98SMdjhMYA5hBwfzytMc/index.html)
 
 ## Build Setup
 
