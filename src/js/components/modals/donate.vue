@@ -107,7 +107,7 @@ export default {
                     transaction.addTag('kitabudonationamount', postdata.amount)
                     transaction.addTag('kitabudonationmessage', postdata.message)
                     transaction.addTag('kitabuadddonation', 'yes')
-                    transaction.addTag('App-Name', 'kitabumain')
+                    transaction.addTag('App-Name', 'kitabuproduction')
                     let signdata = {
                         tx: transaction,
                         arweaveKey: postdata.arweaveKey

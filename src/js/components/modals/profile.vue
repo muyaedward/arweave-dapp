@@ -93,7 +93,7 @@ export default {
                     transaction.addTag('profilefullname', postdata.name)
                     transaction.addTag('profileorganization', postdata.organization)
                     transaction.addTag('profilecountry', postdata.country)
-                    transaction.addTag('App-Name', 'kitabumain')
+                    transaction.addTag('App-Name', 'kitabuproduction')
                     transaction.addTag('kitabuprofiletrue', 'yes')                    
                     let signdata = {
                         tx: transaction,

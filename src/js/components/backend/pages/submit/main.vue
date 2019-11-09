@@ -161,7 +161,7 @@ export default {
                     transaction.addTag('articledata', this.arweavecontent)
                     transaction.addTag('ispublication', 'yes')                    
                     transaction.addTag('Content-Type', 'application/pdf')
-                    transaction.addTag('App-Name', 'kitabumain')
+                    transaction.addTag('App-Name', 'kitabuproduction')
                     let signdata = {
                         tx: transaction,
                         arweaveKey: postdata.arweaveKey

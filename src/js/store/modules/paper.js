@@ -24,7 +24,7 @@ const actions = {
     [GET_PUBLICATIONS_REQUEST]: ({ commit }) => {
         return new Promise((resolve, reject) => {
             const trs_query = and(
-                equals('App-Name', 'kitabumain'),
+                equals('App-Name', 'kitabuproduction'),
                 equals('ispublication', 'yes')
             )
             arweave.arql(trs_query).then((kitabu_transactions) => {                
@@ -68,7 +68,7 @@ const actions = {
         return new Promise((resolve, reject) => {
             if (payload.subject != null && payload.s_term != null) {
                 var trs_query = and(
-                    equals('App-Name', 'kitabumain'),
+                    equals('App-Name', 'kitabuproduction'),
                     equals('ispublication', 'yes'),
                     //equals('kitabutitle', payload.s_term),
                     equals('kitabusubject', payload.subject)
@@ -77,7 +77,7 @@ const actions = {
 
             if (payload.subject != null && payload.s_term == null) {
                 var trs_query = and(
-                    equals('App-Name', 'kitabumain'),
+                    equals('App-Name', 'kitabuproduction'),
                     equals('ispublication', 'yes'),
                     equals('kitabusubject', payload.subject)
                 )
@@ -85,7 +85,7 @@ const actions = {
 
             if (payload.subject == null && payload.s_term != null) {
                 var trs_query = and(
-                    equals('App-Name', 'kitabumain'),
+                    equals('App-Name', 'kitabuproduction'),
                     equals('ispublication', 'yes'),
                     //equals('kitabutitle', payload.s_term),
                 )

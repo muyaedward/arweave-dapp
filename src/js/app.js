@@ -63,7 +63,7 @@ const arweaveportal = new Vue({
         if (Cookies.get('aw_address') != undefined) {
             const userAddedDetailsQuery = and(
                 equals('from', Cookies.get('aw_address')),
-                equals('App-Name', 'kitabumain'),
+                equals('App-Name', 'kitabuproduction'),
                 equals('kitabuprofiletrue', 'yes')
             )
             var updateProfile = new Promise((resolve, reject) => {
