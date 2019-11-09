@@ -33,8 +33,8 @@
           <div id="signInHeader" class="z-10 pb-4 min-h-full w-full px-5 sm:px-10 md:px-20 lg:px-24 xl:px-32 pt-4 md:pt-12 mt-0 sm:mt-1 md:mt-3 text-center md:text-left">
               <div class="flex flex-col md:flex-row md:items-center">
                   <div class="w-full md:w-1/2 text-white">
-                      <h6 class="text-xl sm:text-lg md:text-2xl md:text-4xl sm:leading-snug md:leading-normal lg:leading-relaxed">Top-Ranked Essay Writing Service to Get Secure Help Online</h6>
-                      <p class="pt-3 text-sm md:text-base lg:text-lg sm:leading-snug md:leading-normal lg:leading-relaxed">Get your academic paper done on time with a personal approach. Research papers from pros you can trust!</p>
+                      <h6 class="text-xl sm:text-lg md:text-2xl md:text-4xl sm:leading-snug md:leading-normal lg:leading-relaxed">The best Article/Journals publishing platform</h6>
+                      <p class="pt-3 text-sm md:text-base lg:text-lg sm:leading-snug md:leading-normal lg:leading-relaxed">Publish your papers for free without the worry of them getting deleted. Kitabu is a publishing platform that allows publishers to submit their papers for free. Kitabu is powered by Arweave</p>
                   </div>
                   <div class="w-full md:w-1/2 text-center">
                     <label v-if="!isAuthenticated" class="bg-blue-700 hover:bg-blue-500 text-xl text-white font-bold py-3 px-4 cursor-pointer rounded inline-flex items-center">
